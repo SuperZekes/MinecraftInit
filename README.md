@@ -1,0 +1,2 @@
+# MinecraftInit
+is a project
