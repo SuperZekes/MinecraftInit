@@ -35,4 +35,4 @@ For issues or suggestions, open an issue or submit a pull request on GitHub.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](https://github.com/SuperZekes/MinecraftInit/blob/main/LICENSE).
