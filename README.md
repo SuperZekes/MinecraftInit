@@ -19,7 +19,7 @@ Simplify your Minecraft server setup with MinecraftInit. This Python script auto
 
 2. Run the script:
     ```
-    python minecraft_init.py
+    python minecraftinit.py
     ```
 
 3. Follow prompts to set up your server.
