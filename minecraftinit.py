@@ -28,10 +28,10 @@ def create_start_script(jar_filename, server_name):
     system = platform.system()
     if system == "Windows":
         script_name = "start.bat"
-        command = f"java -Xmx1024M -Xms1024M -jar {jar_filename}"
+        command = f"java -Xmx3024M -Xms3024M -jar {jar_filename}"
     else:
         script_name = "start.sh"
-        command = f"#!/bin/bash\njava -Xmx1024M -Xms1024M -jar {jar_filename}"
+        command = f"#!/bin/bash\njava -Xmx3024M -Xms3024M -jar {jar_filename}"
     
     with open(os.path.join(server_name, script_name), "w") as script_file:
         script_file.write(command)
