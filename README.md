@@ -17,12 +17,14 @@ Simplify your Minecraft server setup with MinecraftInit. This Python script auto
 
 1. Clone or download this repository.
 
-2. Run the script:
-    ```
-    python minecraftinit.py
+2. Run the following commands:
+
+   ```
+   pip install -r requirements.txt
+   python -m minecraftinit.py
     ```
 
-3. Follow prompts to set up your server.
+4. Follow prompts to set up your server.
 
 ## Customization
 
