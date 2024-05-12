@@ -12,8 +12,8 @@ def download_purpur_jar(version, server_name):
         "1.20": "https://api.purpurmc.org/v2/purpur/1.20/1990/download",
         "1.20.1": "https://api.purpurmc.org/v2/purpur/1.20.1/2062/download",
         "1.20.2": "https://api.purpurmc.org/v2/purpur/1.20.2/2095/download",
-        "1.20.3-1.20.5": "https://api.purpurmc.org/v2/purpur/1.20.4/2176/download",
-        "1.20.6": "https://api.purpurmc.org/v2/purpur/1.20.6/2193/download"
+        "1.20.4": "https://api.purpurmc.org/v2/purpur/1.20.4/2176/download",
+        "1.20.6 (experimental build!)": "https://api.purpurmc.org/v2/purpur/1.20.6/2193/download"
     }
     url = version_urls.get(version)
     if url:
@@ -61,7 +61,7 @@ def main():
 
     version = questionary.select(
         "Which Minecraft version would you like to use?",
-        choices=["1.20", "1.20.1", "1.20.2", "1.20.3-1.20.5", "1.20.6"]
+        choices=["1.20", "1.20.1", "1.20.2", "1.20.4", "1.20.6 (experimental build!)"]
     ).ask()
 
     jar_filename = download_purpur_jar(version, server_name)
